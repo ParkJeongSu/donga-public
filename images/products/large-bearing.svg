@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="lbBgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="lbShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18" />
+    </filter>
+    <linearGradient id="lbSteelOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="30%" stop-color="#cbd5e1" />
+      <stop offset="60%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="lbSteelInner" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="35%" stop-color="#94a3b8" />
+      <stop offset="70%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <linearGradient id="lbBrass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="35%" stop-color="#eab308" />
+      <stop offset="75%" stop-color="#a16207" />
+      <stop offset="100%" stop-color="#713f12" />
+    </linearGradient>
+    <linearGradient id="lbRollerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="25%" stop-color="#f8fafc" />
+      <stop offset="60%" stop-color="#cbd5e1" />
+      <stop offset="90%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="#f8fafc" />
+  <circle cx="300" cy="225" r="210" fill="url(#lbBgGlow)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.15" stroke="#0284c7" stroke-width="0.75" stroke-dasharray="4,4">
+    <line x1="300" y1="20" x2="300" y2="430" />
+    <line x1="20" y1="225" x2="580" y2="225" />
+    <circle cx="300" cy="225" r="190" fill="none" />
+    <circle cx="300" cy="225" r="95" fill="none" />
+  </g>
+
+  <!-- Large Heavy Duty Spherical Roller Bearing Illustration -->
+  <g filter="url(#lbShadow)">
+    <!-- Outer Ring -->
+    <circle cx="300" cy="225" r="175" fill="url(#lbSteelOuter)" stroke="#64748b" stroke-width="2.5" />
+    <circle cx="300" cy="225" r="165" fill="#334155" />
+    <circle cx="300" cy="225" r="160" fill="url(#lbSteelOuter)" />
+    
+    <!-- Lubrication Groove and Oil Holes on Outer Ring (W33 Feature) -->
+    <circle cx="300" cy="225" r="168" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-dasharray="14, 76" opacity="0.8" />
+    <circle cx="300" cy="57" r="4" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
+    <circle cx="468" cy="225" r="4" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
+    <circle cx="300" cy="393" r="4" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
+    <circle cx="132" cy="225" r="4" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
+
+    <!-- Spherical Raceway Deep Zone -->
+    <circle cx="300" cy="225" r="148" fill="#1e293b" />
+    
+    <!-- Machined Brass Solid Cage Ring -->
+    <circle cx="300" cy="225" r="130" fill="url(#lbBrass)" stroke="#854d0e" stroke-width="2" />
+    <circle cx="300" cy="225" r="102" fill="#0f172a" />
+
+    <!-- Heavy Barrel Rollers (14 Rollers around perimeter) -->
+    <!-- Roller 1 (Top) -->
+    <g transform="translate(300, 116)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 2 -->
+    <g transform="translate(352, 127) rotate(25.7)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 3 -->
+    <g transform="translate(395, 160) rotate(51.4)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 4 -->
+    <g transform="translate(414, 210) rotate(77.1)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 5 -->
+    <g transform="translate(407, 262) rotate(102.8)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 6 -->
+    <g transform="translate(374, 303) rotate(128.5)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 7 -->
+    <g transform="translate(325, 326) rotate(154.2)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 8 -->
+    <g transform="translate(275, 326) rotate(180)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 9 -->
+    <g transform="translate(226, 303) rotate(205.7)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 10 -->
+    <g transform="translate(193, 262) rotate(231.4)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 11 -->
+    <g transform="translate(186, 210) rotate(257.1)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 12 -->
+    <g transform="translate(205, 160) rotate(282.8)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 13 -->
+    <g transform="translate(248, 127) rotate(308.5)">
+      <rect x="-14" y="-22" width="28" height="44" rx="8" fill="url(#lbRollerGrad)" stroke="#475569" stroke-width="1" />
+      <line x1="-5" y1="-18" x2="-5" y2="18" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+
+    <!-- Inner Ring -->
+    <circle cx="300" cy="225" r="96" fill="url(#lbSteelInner)" stroke="#475569" stroke-width="2" />
+    <circle cx="300" cy="225" r="88" fill="#334155" />
+    <circle cx="300" cy="225" r="82" fill="url(#lbSteelInner)" />
+    
+    <!-- Bore Hole (d) -->
+    <circle cx="300" cy="225" r="70" fill="#0f172a" />
+    <path d="M230,225 A70,70 0 0,0 370,225 A70,50 0 0,1 230,225 Z" fill="#020617" opacity="0.6" />
+
+    <!-- Metallic Highlight -->
+    <path d="M165,135 A175,175 0 0,1 435,135" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7" />
+  </g>
+
+  <!-- Technical Spec Badge in SVG -->
+  <g font-family="'Pretendard', sans-serif">
+    <rect x="25" y="25" width="135" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#lbShadow)" />
+    <text x="37" y="44" font-size="11" font-weight="800" fill="#0284c7">HEAVY DUTY</text>
+    <text x="37" y="58" font-size="10" font-weight="600" fill="#475569">Ø200mm ~ Ø2,000mm</text>
+
+    <rect x="440" y="380" width="135" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#lbShadow)" />
+    <text x="452" y="399" font-size="11" font-weight="800" fill="#059669">동아베어링 공급</text>
+    <text x="452" y="413" font-size="10" font-weight="600" fill="#64748b">풍력·제철·중장비용</text>
+  </g>
+</svg>

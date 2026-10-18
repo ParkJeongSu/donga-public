@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="spBgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="spShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+    <!-- Mirror Finish Stainless Steel Rings -->
+    <linearGradient id="spStainlessOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="75%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <!-- High-Gloss Ceramic (Silicon Nitride Si3N4 / Dark Obsidian) Balls -->
+    <radialGradient id="ceramicBallShine" cx="30%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="25%" stop-color="#334155" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <linearGradient id="ptfeCage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="#f8fafc" />
+  <circle cx="300" cy="225" r="210" fill="url(#spBgGlow)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.15" stroke="#0284c7" stroke-width="0.75" stroke-dasharray="4,4">
+    <line x1="300" y1="20" x2="300" y2="430" />
+    <line x1="20" y1="225" x2="580" y2="225" />
+    <circle cx="300" cy="225" r="175" fill="none" />
+    <circle cx="300" cy="225" r="120" fill="none" />
+  </g>
+
+  <!-- Ceramic Hybrid & Miniature Precision Stainless Assembly -->
+  <g filter="url(#spShadow)">
+    <!-- Mirror Polish Stainless Steel Outer Ring -->
+    <circle cx="300" cy="225" r="168" fill="url(#spStainlessOuter)" stroke="#475569" stroke-width="2.5" />
+    <circle cx="300" cy="225" r="156" fill="#334155" />
+    <circle cx="300" cy="225" r="150" fill="url(#spStainlessOuter)" />
+
+    <!-- Mirror Polished Raceway Cavity -->
+    <circle cx="300" cy="225" r="138" fill="#0f172a" />
+
+    <!-- Pure White PTFE / PEEK Fluoropolymer Retainer Cage -->
+    <circle cx="300" cy="225" r="122" fill="none" stroke="url(#ptfeCage)" stroke-width="16" stroke-dasharray="22, 22" />
+    <circle cx="300" cy="225" r="122" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2, 42" />
+
+    <!-- Silicon Nitride (Si3N4) Ceramic Balls (9 Balls, Glossy Dark Finish) -->
+    <!-- Ball 1 (Top) -->
+    <circle cx="300" cy="103" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="295" cy="98" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 2 -->
+    <circle cx="379" cy="132" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="374" cy="127" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 3 -->
+    <circle cx="420" cy="204" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="415" cy="199" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 4 -->
+    <circle cx="403" cy="284" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="398" cy="279" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 5 -->
+    <circle cx="342" cy="340" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="337" cy="335" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 6 -->
+    <circle cx="258" cy="340" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="253" cy="335" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 7 -->
+    <circle cx="197" cy="284" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="192" cy="279" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 8 -->
+    <circle cx="180" cy="204" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="175" cy="199" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+    <!-- Ball 9 -->
+    <circle cx="221" cy="132" r="19" fill="url(#ceramicBallShine)" stroke="#0ea5e9" stroke-width="1" />
+    <ellipse cx="216" cy="127" rx="5" ry="3" fill="#ffffff" opacity="0.85" />
+
+    <!-- Stainless Steel Inner Ring -->
+    <circle cx="300" cy="225" r="105" fill="#0f172a" />
+    <circle cx="300" cy="225" r="95" fill="url(#spStainlessOuter)" stroke="#475569" stroke-width="2" />
+    <circle cx="300" cy="225" r="85" fill="#334155" />
+    <circle cx="300" cy="225" r="80" fill="url(#spStainlessOuter)" />
+
+    <!-- Bore (Precision Ground d) -->
+    <circle cx="300" cy="225" r="66" fill="#0f172a" />
+    <path d="M234,225 A66,66 0 0,0 366,225 A66,46 0 0,1 234,225 Z" fill="#020617" opacity="0.65" />
+
+    <!-- Mirror Sheen Reflections -->
+    <path d="M165,135 A168,168 0 0,1 435,135" fill="none" stroke="#ffffff" stroke-width="3.5" opacity="0.85" />
+    <path d="M225,185 A95,95 0 0,1 375,185" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.85" />
+  </g>
+
+  <!-- Technical Spec Badge in SVG -->
+  <g font-family="'Pretendard', sans-serif">
+    <rect x="25" y="25" width="145" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#spShadow)" />
+    <text x="37" y="44" font-size="11" font-weight="800" fill="#0284c7">CERAMIC &amp; STAINLESS</text>
+    <text x="37" y="58" font-size="10" font-weight="600" fill="#475569">Si3N4 세라믹 · SUS440C</text>
+
+    <rect x="430" y="380" width="145" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#spShadow)" />
+    <text x="442" y="399" font-size="11" font-weight="800" fill="#0284c7">내부식 · 초고속 회전</text>
+    <text x="442" y="413" font-size="10" font-weight="600" fill="#64748b">반도체 · 식품· 화학 플랜트</text>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="rbBgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="rbShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+    <linearGradient id="rbSteelOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="30%" stop-color="#cbd5e1" />
+      <stop offset="65%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="rbSteelInner" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="35%" stop-color="#94a3b8" />
+      <stop offset="70%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <linearGradient id="rbRollerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="30%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="#f8fafc" />
+  <circle cx="300" cy="225" r="210" fill="url(#rbBgGlow)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.15" stroke="#0284c7" stroke-width="0.75" stroke-dasharray="4,4">
+    <line x1="300" y1="20" x2="300" y2="430" />
+    <line x1="20" y1="225" x2="580" y2="225" />
+    <circle cx="300" cy="225" r="185" fill="none" />
+    <circle cx="300" cy="225" r="120" fill="none" />
+  </g>
+
+  <!-- Cylindrical / Taper Roller Bearing Assembly -->
+  <g filter="url(#rbShadow)">
+    <!-- Outer Ring with Rib Guide -->
+    <circle cx="300" cy="225" r="172" fill="url(#rbSteelOuter)" stroke="#64748b" stroke-width="2.5" />
+    <circle cx="300" cy="225" r="160" fill="#334155" />
+    <circle cx="300" cy="225" r="154" fill="url(#rbSteelOuter)" />
+    
+    <!-- Outer Ring Raceway -->
+    <circle cx="300" cy="225" r="142" fill="#1e293b" />
+
+    <!-- Cage Ring Separator -->
+    <circle cx="300" cy="225" r="126" fill="none" stroke="#64748b" stroke-width="22" stroke-dasharray="26, 26" opacity="0.85" />
+
+    <!-- Cylindrical Rollers (12 Rollers Around Circumference) -->
+    <!-- Roller 1 (Top) -->
+    <g transform="translate(300, 116)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 2 -->
+    <g transform="translate(355, 131) rotate(30)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 3 -->
+    <g transform="translate(395, 170) rotate(60)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 4 -->
+    <g transform="translate(410, 225) rotate(90)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 5 -->
+    <g transform="translate(395, 280) rotate(120)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 6 -->
+    <g transform="translate(355, 319) rotate(150)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 7 (Bottom) -->
+    <g transform="translate(300, 334) rotate(180)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 8 -->
+    <g transform="translate(245, 319) rotate(210)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 9 -->
+    <g transform="translate(205, 280) rotate(240)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 10 -->
+    <g transform="translate(190, 225) rotate(270)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 11 -->
+    <g transform="translate(205, 170) rotate(300)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+    <!-- Roller 12 -->
+    <g transform="translate(245, 131) rotate(330)">
+      <rect x="-13" y="-18" width="26" height="36" rx="5" fill="url(#rbRollerGrad)" stroke="#475569" stroke-width="1.2" />
+      <line x1="-4" y1="-14" x2="-4" y2="14" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    </g>
+
+    <!-- Inner Ring with Guide Ribs -->
+    <circle cx="300" cy="225" r="102" fill="url(#rbSteelInner)" stroke="#475569" stroke-width="2" />
+    <circle cx="300" cy="225" r="92" fill="#334155" />
+    <circle cx="300" cy="225" r="86" fill="url(#rbSteelInner)" />
+
+    <!-- Bore Fit (d) -->
+    <circle cx="300" cy="225" r="72" fill="#0f172a" />
+    <path d="M228,225 A72,72 0 0,0 372,225 A72,52 0 0,1 228,225 Z" fill="#020617" opacity="0.65" />
+
+    <!-- Specular Highlight Arc -->
+    <path d="M165,135 A172,172 0 0,1 435,135" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.75" />
+  </g>
+
+  <!-- Technical Spec Badge in SVG -->
+  <g font-family="'Pretendard', sans-serif">
+    <rect x="25" y="25" width="135" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#rbShadow)" />
+    <text x="37" y="44" font-size="11" font-weight="800" fill="#0284c7">CYLINDRICAL / TAPER</text>
+    <text x="37" y="58" font-size="10" font-weight="600" fill="#475569">NU200 · 30200 고하중</text>
+
+    <rect x="440" y="380" width="135" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#rbShadow)" />
+    <text x="452" y="399" font-size="11" font-weight="800" fill="#0284c7">강력한 레이디얼 하중</text>
+    <text x="452" y="413" font-size="10" font-weight="600" fill="#64748b">감속기 · 중장비 모터용</text>
+  </g>
+</svg>
