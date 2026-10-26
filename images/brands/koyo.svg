@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" fill="none">
+  <!-- KOYO (Japan / JTEKT) - Signature Red Brand Logotype -->
+  <g fill="#D0021B">
+    <!-- K -->
+    <path d="M16 10h5.8v7.5l8-7.5h8.2l-9.5 8.6 10.8 11.4h-8.5l-7.2-7.8-1.8 1.6V30H16V10z"/>
+    <!-- O -->
+    <path d="M49 10c6.6 0 11.5 4.6 11.5 10s-4.9 10-11.5 10-11.5-4.6-11.5-10 4.9-10 11.5-10zm0 15c3.5 0 6-2.5 6-5s-2.5-5-6-5-6 2.5-6 5 2.5 5 6 5z"/>
+    <!-- Y -->
+    <path d="M63 10h6.2l5.8 8.8 5.8-8.8H87l-8.8 12.8V30h-5.8v-7.2L63 10z"/>
+    <!-- O -->
+    <path d="M99 10c6.6 0 11.5 4.6 11.5 10s-4.9 10-11.5 10-11.5-4.6-11.5-10 4.9-10 11.5-10zm0 15c3.5 0 6-2.5 6-5s-2.5-5-6-5-6 2.5-6 5 2.5 5 6 5z"/>
+  </g>
+  <!-- JTEKT Subtitle Endorsement -->
+  <text x="60" y="36.5" font-family="'Pretendard', 'Inter', -apple-system, sans-serif" font-size="3.8" font-weight="700" fill="#64748B" letter-spacing="1.5" text-anchor="middle">A JTEKT BRAND</text>
+</svg>

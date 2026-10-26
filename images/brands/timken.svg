@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" fill="none">
+  <!-- TIMKEN (USA) - Orange Tapered Roller Motif + Bold Black Logotype -->
+  <!-- Tapered Roller Symbol in Timken Orange -->
+  <g transform="translate(10, 11)">
+    <!-- Trapezoid Tapered Roller Body -->
+    <polygon points="3,0 15,2 13,18 1,16" fill="#F58220"/>
+    <polygon points="5,2.2 13,3.6 11.5,16.4 3.5,15" fill="#FFA048"/>
+    <!-- Bearing Center Line -->
+    <line x1="1" y1="8.5" x2="15" y2="10.2" stroke="#FFFFFF" stroke-width="1.2"/>
+  </g>
+  <!-- TIMKEN Bold Logotype in Deep Slate / Black -->
+  <g fill="#1E293B">
+    <!-- T -->
+    <path d="M30 11.5h11v3.2h-3.8v13.5H33.8V14.7H30v-3.2z"/>
+    <!-- I -->
+    <path d="M43 11.5h3.4v16.7H43V11.5z"/>
+    <!-- M -->
+    <path d="M49 11.5h3.8l3.6 8.5 3.6-8.5h3.8v16.7h-3.2v-11.2l-3.2 7.8h-2l-3.2-7.8v11.2H49V11.5z"/>
+    <!-- K -->
+    <path d="M67 11.5h3.4v6.6l5.2-6.6h4.2l-6 7.4 6.8 9.3H76.2l-4.8-6.8-1 1v5.8H67V11.5z"/>
+    <!-- E -->
+    <path d="M80 11.5h10.5v3.2h-7.1v3.3h6.2v3.2h-6.2v3.7h7.2v3.3H80V11.5z"/>
+    <!-- N -->
+    <path d="M93 11.5h3.4l6.8 10.2V11.5h3.4v16.7h-3.2l-7-10.5v10.5H93V11.5z"/>
+  </g>
+  <!-- Bottom Brand Orange Rule -->
+  <rect x="29" y="32.5" width="81" height="2" rx="1" fill="#F58220"/>
+</svg>

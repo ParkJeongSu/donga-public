@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" fill="none">
+  <!-- NTN (Japan) - Iconic Blue Sans-Serif Logo -->
+  <g fill="#005BAC">
+    <!-- First N -->
+    <path d="M14 10.5h7l14.5 13.8V10.5H42v18h-7L20.5 15.2v13.3H14v-18z"/>
+    <!-- T -->
+    <path d="M44 10.5h25v5.8h-9.2v12.2h-6.6V16.3H44v-5.8z"/>
+    <!-- Second N -->
+    <path d="M72 10.5h7l14.5 13.8V10.5H100v18h-7L78.5 15.2v13.3H72v-18z"/>
+  </g>
+  <!-- Subtle precision line below -->
+  <rect x="20" y="34" width="80" height="1.8" rx="0.9" fill="#005BAC" opacity="0.35"/>
+</svg>
